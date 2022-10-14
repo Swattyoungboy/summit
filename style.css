@@ -1183,7 +1183,49 @@ hr {
   border-color: #CCC;
  margin: auto;
   }
-
+  .partner {
+    background-color: #f8f8f8;
+    padding-bottom: 150px;
+  }
+  .partner .partner-box {
+    display: block;
+    opacity: 0.3;
+    height: 150px;
+    width: 150px;
+    margin: 25px 75px;
+    -webkit-transition: 0.5s all linear;
+            transition: 0.5s all linear;
+  }
+  
+  .partner .partner-box:hover {
+    opacity: 1;
+  }
+  .partner .SlovakAid {
+    background: url("images/partner/SlovakAid.jpg") no-repeat center center/contain;
+  }
+  .partner .partner-box-2 {
+    background: url("images/partner/partner-2.png") no-repeat center center/contain;
+  }
+  .partner .partner-box-3 {
+    background: url("images/partner/partner-3.png") no-repeat center center/contain;
+  }
+  .partner .partner-box-4 {
+    background: url("images/partner/partner-4.png") no-repeat center center/contain;
+  }
+  .partner .partner-box-5 {
+    background: url("images/partner/partner-5.png") no-repeat center center/contain;
+  }
+  .partner .partner-box-6 {
+    background: url("images/partner/partner-6.png") no-repeat center center/contain;
+  }
+  .partner .partner-box-7 {
+    background: url("images/partner/partner-7.png") no-repeat center center/contain;
+  }
+  .partner .partner-box-8 {
+    background: url("images/partner/partner-8.png") no-repeat center center/contain;
+  }
+  
+  
 
 /* 
  * 6.7 Section: Schedule
