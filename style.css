@@ -1641,7 +1641,7 @@ hr {
 }
 .partner .partner-box {
   display: block;
-  opacity: 0.3;
+  opacity: 1.0;
   height: 150px;
   width: 150px;
   margin: 25px 75px;
@@ -1653,10 +1653,10 @@ hr {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url("images/partner/partner-1.png") no-repeat center center/contain;
+  background: url("images/partner/SoteHub.png") no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url("images/partner/partner-2.png") no-repeat center center/contain;
+  background: url("images/partner/OIP.jpg") no-repeat center center/contain;
 }
 .partner .partner-box-3 {
   background: url("images/partner/partner-3.png") no-repeat center center/contain;
@@ -1674,7 +1674,10 @@ hr {
   background: url("images/partner/partner-7.png") no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url("images/partner/partner-8.png") no-repeat center center/contain;
+  background: url("images/partner/Techbridge.png") no-repeat center center/contain;
+}
+.partner .partner-box-9{
+  background: url(images/partner/GOYN.png) no-repeat center center/contain;
 }
 
 
