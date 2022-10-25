@@ -77,9 +77,16 @@ header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
 }
-header img{
+header .logo{
   width: 200px;
   height: 160px;
+  cursor: pointer;
+}
+header .logo2{
+  margin-left: -50px;
+  margin-right: -70px;
+  width: 200px;
+  height: 130px;
   cursor: pointer;
 }
 
@@ -141,6 +148,12 @@ header .icons button a{
     background: var(--blue);
 }
 
+@media(max-width:752px){
+  header .logo2{
+    display: none;
+  }
+ 
+}
 
 
 
@@ -858,6 +871,10 @@ header .icons button a{
 	padding-bottom: 90px;
 	background: #fff;
 }
+.Screenshot img{
+  width: 900px;
+  height: 500px;
+}
 
 .Screenshot .titlepage {
 	padding-bottom: 60px;
@@ -1439,61 +1456,16 @@ a {
   text-align: center;
 }
 
-
-
-
-
-
-/* ==========================================================================
-footer section
-========================================================================== */
-footer {
-  margin-top: -80px;
-text-align: center;
-padding-top: -20px;
-padding-bottom: 10px;
+.org img{
+  width: 600px;
+  height: auto;
 }
-footer p {
-padding-top: 20px;
-}
-.social-icon {
-padding: 0;
-margin: 0;
-}
-.social-icon li {
-list-style: none;
-display: inline-block;
-padding: 6px;
-}
-.social-icon li a {
-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
-color: #808080;
-font-size: 20px;
-width: 56px;
-height: 56px;
-line-height: 60px;
-text-align: center;
-text-decoration: none;
-transition: all 0.4s ease-in-out;
-}
-.social-icon li a:hover {
-color: #00c6d7;
+.org .carousel-indicators {
+  color: #07A7FA;
 }
 
-@media screen and (min-width: 992px) {
-@-moz-document url-prefix() {
-  #portfolio .col-lg-4,
-  #portfolio .col-md-4 {
-    width: 33.333%;
-  }
-}    
-}
 
-hr {
-  width: 180px;
-  border-color: #CCC;
- margin: auto;
-  }
+
 
 
 /* 
@@ -1641,7 +1613,7 @@ hr {
 }
 .partner .partner-box {
   display: block;
-  opacity: 1.0;
+  opacity: 0.3;
   height: 150px;
   width: 150px;
   margin: 25px 75px;
@@ -1653,10 +1625,10 @@ hr {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url("images/partner/SoteHub.png") no-repeat center center/contain;
+  background: url("images/partner/partner-1.png") no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url("images/partner/OIP.jpg") no-repeat center center/contain;
+  background: url("images/partner/partner-2.png") no-repeat center center/contain;
 }
 .partner .partner-box-3 {
   background: url("images/partner/partner-3.png") no-repeat center center/contain;
@@ -1674,10 +1646,7 @@ hr {
   background: url("images/partner/partner-7.png") no-repeat center center/contain;
 }
 .partner .partner-box-8 {
-  background: url("images/partner/Techbridge.png") no-repeat center center/contain;
-}
-.partner .partner-box-9{
-  background: url(images/partner/GOYN.png) no-repeat center center/contain;
+  background: url("images/partner/partner-8.png") no-repeat center center/contain;
 }
 
 
@@ -1785,6 +1754,57 @@ margin-top: 0px;
 }
 }
 
+
+/* ==========================================================================
+footer section
+========================================================================== */
+footer {
+  margin-top: -80px;
+text-align: center;
+padding-top: -20px;
+padding-bottom: 10px;
+}
+footer p {
+padding-top: 20px;
+}
+.social-icon {
+padding: 0;
+margin: 0;
+}
+.social-icon li {
+list-style: none;
+display: inline-block;
+padding: 6px;
+}
+.social-icon li a {
+box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
+color: #808080;
+font-size: 20px;
+width: 56px;
+height: 56px;
+line-height: 60px;
+text-align: center;
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+}
+.social-icon li a:hover {
+color: #00c6d7;
+}
+
+@media screen and (min-width: 992px) {
+@-moz-document url-prefix() {
+  #portfolio .col-lg-4,
+  #portfolio .col-md-4 {
+    width: 33.333%;
+  }
+}    
+}
+
+hr {
+  width: 180px;
+  border-color: #CCC;
+ margin: auto;
+  }
 
 
 
